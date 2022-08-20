@@ -1,0 +1,41 @@
+.container{
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.desc{
+    font-style: 24px;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.inputcontainer{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+.inputcontainer input{
+    border: none;
+    flex: 8;
+    outline: none;
+    padding-left: 20px;
+    font-size: medium;
+
+}
+.inputcontainer button{
+    flex: 1;
+    border: none;
+    background-color: teal;
+    color: white;
+    
+}

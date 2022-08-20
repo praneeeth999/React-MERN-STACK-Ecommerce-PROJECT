@@ -1,0 +1,29 @@
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .btn_container button {
+  padding: 20px 40px;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+} */
+.checkout{
+  margin-left: 10px;
+}
+.form_group{
+
+}
+

@@ -1,0 +1,100 @@
+.container {
+}
+.wrapper {
+  display: flex;
+  padding: 50px;
+}
+.imgContainer {
+  flex: 1;
+}
+.imgContainer img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+.InfoContainer {
+  flex: 1;
+  padding: 0px 50px;
+}
+.InfoContainer h1 {
+  font-weight: 200;
+}
+.InfoContainer p {
+  margin: 20px 0px;
+}
+.InfoContainer span {
+  font-weight: 100;
+  font-size: 48px;
+}
+.FilterContainer {
+  width: 50%;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  align-items: center;
+}
+.filterTitle {
+  font-size: 20px;
+  font-weight: 200;
+}
+.filterColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.colorDiv {
+  display: flex;
+  position: relative;
+  bottom: 21px;
+  left: 58px;
+}
+select {
+  padding: 5px;
+}
+.AddContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AmountContainer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.RemoveBtn {
+  border: none;
+}
+
+.AmountContainer span {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  font-weight: 600;
+  font-size:medium ;
+ 
+}
+.AddBtn {
+  border: none;
+}
+.CartBtn {
+  padding: 15px;
+  border: 2px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  
+}
+.CartBtn:hover{
+    background-color: #f8f4f4;
+}
